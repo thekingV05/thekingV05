@@ -1,9 +1,28 @@
-<form action="/ma-page-de-traitement" method="post">
-    <div>
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="user_name">
-    </div>
-</form>
+<htlm>
+<head><title>Questionnaire</title></head>
+  <body>
+     <form action="index.php" name="my form" methode="POST">
+     
+     Prénom:<input type="text" name="prénom"><br>
+     nom:<input type="text" name="nom"> 
+     
+     Tu est:<br>
+     <input type="radio" name="sexe" value="homme">homme<br>
+     <input type="radio" name="sexe" value="femme">femme<br>
+     
+     Tu aime:<br>
+     <input type="checkbox" name="pomme" value="pomme">pomme<br>
+     <input type="checkbox" name="poire" value="poire">poire<br>
+     <input type="checkbox" name="fraise" value="fraise">fraise<br>
+     
+     Quelle est ton fruit préféré?<br>
+     <select name="préféré"> 
+             <option value="pomme" selected="selected">pomme</option>
+             <option value="poire">poire</option>
+             <option value="fraise">fraise</option> 
+     </form>
+  </body>
+</htlm>
 
-
+ 
 pelletiervivien
