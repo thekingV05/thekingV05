@@ -4,7 +4,7 @@
      <form action="index.php" name="my form" methode="POST">
      
      Prénom:<input type="text" name="prénom"><br>
-     nom:<input type="text" name="nom"> 
+     nom:<input type="text" name="nom"><br>
      
      Tu est:<br>
      <input type="radio" name="sexe" value="homme">homme<br>
