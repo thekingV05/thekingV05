@@ -15,11 +15,10 @@
      <input type="checkbox" name="poire" value="poire">poire<br>
      <input type="checkbox" name="fraise" value="fraise">fraise<br>
      
-     Quelle est ton fruit préféré?<br>
+     Quelle est ton prénom préféré?<br>
      <select name="préféré"> 
-             <option value="pomme" selected="selected">pomme</option>
-             <option value="poire">poire</option>
-             <option value="fraise">fraise</option> 
+             <option value="Paul" selected="selected">Paul</option>
+             <option value="Pierre">Pierre</option>
      </form>
   </body>
 </htlm>
