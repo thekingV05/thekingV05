@@ -1,6 +1,7 @@
 <htlm>
 <head><title>Questionnaire</title></head>
   <body>
+  <div id="res">
      <form action="index.php" name="my form" methode="POST">
      
      Prénom:<input type="text" name="prénom"><br>
@@ -19,7 +20,10 @@
      <select name="préféré"> 
              <option value="Paul" selected="selected">Paul</option>
              <option value="Pierre">Pierre</option>
+     <input type="submit" value="Envoyer ce questionnaire"/> 
+     
      </form>
+  </div> 
   </body>
 </htlm>
 
